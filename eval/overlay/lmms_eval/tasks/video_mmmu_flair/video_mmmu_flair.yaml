@@ -1,0 +1,7 @@
+group: video_mmmu_flair
+task:
+  - video_mmmu_flair_adaptation
+  - video_mmmu_flair_comprehension
+  - video_mmmu_flair_perception
+aggregate_metric_list:
+  - metric: mmmu_acc

@@ -1,0 +1,15 @@
+dataset_path: lmms-lab/VideoMMMU
+dataset_kwargs:
+  token: True
+  video: True
+  cache_dir: video_mmmu
+lmms_eval_specific_kwargs:
+  default:
+    mcq_prompt: "Answer with the option's letter from the given choices directly."
+    open_ended_prompt: "Answer the question using a single word or phrase."
+  flair:
+    flair: true
+    mcq_prompt: ""
+    open_ended_prompt: ""
+generation_kwargs:
+  max_new_tokens: 8192
